@@ -1,0 +1,24 @@
+.menu-element-images {
+	aspect-ratio: 0.5;
+	width: 20%;
+	height: 40%;
+	position: relative;
+
+	img {
+		aspect-ratio: 0.5;
+		width: 100%;
+		height: 100%;
+		box-shadow: -5px 5px 8px 2px rgba(0, 0, 0, 0.4);
+	}
+
+	img:first-child {
+		position: absolute;
+		z-index: 2;
+	}
+
+	img:nth-child(2) {
+		position: absolute;
+		left: -50px;
+		top: -85px;
+	}
+}

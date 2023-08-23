@@ -1,4 +1,5 @@
 import Home from './components/Home/containers/Home'
+import './App.scss'
 
 function App() {
 	return (

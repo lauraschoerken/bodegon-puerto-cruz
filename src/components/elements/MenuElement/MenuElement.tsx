@@ -2,16 +2,19 @@ import React from 'react'
 import './MenuElement.scss'
 import SectionBanner from '../SectionBanner/SectionBanner'
 import { secondary_background } from '../../../utilities/colors'
+import { useTranslation } from 'react-i18next'
 
 const MenuElement = () => {
+	const { t } = useTranslation()
+
 	const navigateToMenu = () => {
 		console.log('navigate to menu')
 	}
 	return (
 		<SectionBanner
-			title='Mira nuestro menú'
-			body='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
-			buttonText='Ver menú'
+			title={t('menuElement.title')}
+			body={t('menuElement.description')}
+			buttonText={t('menuElement.button')}
 			buttonClick={navigateToMenu}
 			SideComponent={
 				<div className='menu-element-images'>

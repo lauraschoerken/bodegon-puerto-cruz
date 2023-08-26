@@ -1,0 +1,41 @@
+{
+	"general": {
+		"accept": "Accept",
+		"delete": "Delete",
+		"true": "True",
+		"false": "False",
+		"manage": "Manage",
+		"details": "View details",
+		"search": "Search",
+		"save": "Save",
+		"yes": "Yes",
+		"no": "No",
+		"cancel": "Cancel",
+		"continue": "Continue",
+		"none": "None",
+		"update": "Update",
+		"select": "Select",
+		"loading": "Loading..."
+	},
+	"header":{
+		"home": "Home",
+		"menu": "Menu",
+		"location": "Location",
+		"contact": "Contact",
+		"lenguaje":{
+			"spanish": "Spanish",
+			"english": "English",
+			"fransh": "Fransh",
+			"german": "German"
+		}
+	},
+	"home":{
+		"title": "Welcome to Bodegón Puerto de la Cruz",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+	},
+	"menuElement": {
+		"title": "Explore Our Menu",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"button": "View Menu"
+	}
+}

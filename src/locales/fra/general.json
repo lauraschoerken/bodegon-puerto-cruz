@@ -37,7 +37,13 @@
 		"title": "Découvrez notre menu",
 		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 		"button": "Voir le menu"
+	},
+	"locationElement": {
+		"title": "Trouvez-nous",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"button": "Emplacement"
 	}
+	
 	
 	
 }

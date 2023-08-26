@@ -37,7 +37,13 @@
 		"title": "Unsere Speisekarte entdecken",
 		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 		"button": "Speisekarte anzeigen"
+	},
+	"locationElement": {
+		"title": "Finde uns",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"button": "Standort"
 	}
+	
 	
 	
 }

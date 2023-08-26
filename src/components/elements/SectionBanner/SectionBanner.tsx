@@ -11,6 +11,7 @@ interface Props {
 	backgroundImage?: string
 	justifyContent?: 'space-between' | 'space-around' | 'space-evenly' | 'center'
 	SideComponent?: React.ReactNode
+	textColor?: string
 }
 
 const SectionBanner: React.FC<Props> = (props) => {
@@ -23,6 +24,7 @@ const SectionBanner: React.FC<Props> = (props) => {
 		backgroundImage,
 		justifyContent = 'space-around',
 		SideComponent,
+		textColor,
 	} = props
 
 	const wrapperStyles = () => {
@@ -30,7 +32,7 @@ const SectionBanner: React.FC<Props> = (props) => {
 		if (backgroundColor) styles['backgroundColor'] = backgroundColor
 		if (backgroundImage) styles['backgroundImage'] = `url(${backgroundImage})`
 		if (justifyContent) styles['justifyContent'] = justifyContent
-
+		if (textColor) styles['textColor'] = textColor
 		return styles
 	}
 
